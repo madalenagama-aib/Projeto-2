@@ -1,0 +1,142 @@
+/* Estilo geral da página */
+
+body {
+    background-color: #1c1c24;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: #740001;
+    color: #d3a625;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 45px;
+}
+
+h2 {
+    color: #d3a625;
+    font-family: Georgia, serif;
+}
+
+/* Introdução */
+
+.introducao {
+    background-color: #292936;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Destaque */
+
+.destaque {
+    background-color: #d3a625;
+    color: #1c1c24;
+    padding: 15px;
+    margin: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Os três tópicos */
+
+.topico {
+    background-color: #292936;
+    padding: 20px;
+    margin: 20px;
+    border-left: 5px solid #d3a625;
+    border-radius: 10px;
+}
+
+/* Listas */
+
+li {
+    margin: 10px;
+}
+
+/* Imagem */
+
+.imagem {
+    text-align: center;
+    margin: 30px;
+}
+
+.imagem img {
+    width: 70%;
+    max-width: 600px;
+    border: 4px solid #d3a625;
+    border-radius: 10px;
+}
+
+/* Hiperligação */
+
+.link {
+    background-color: #740001;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+a {
+    color: #d3a625;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a:hover {
+    color: white;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: #111116;
+    color: #d3a625;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+
+/*
+
+1. DESAFIO TÉCNICO:
+
+A regra CSS mais difícil de aplicar foi a organização
+dos diferentes blocos div. Consegui superar essa
+dificuldade através da utilização de margens,
+espaçamentos, cores de fundo e bordas para organizar
+melhor os conteúdos da página.
+
+
+2. CORREÇÃO DE SINTAXE:
+
+Durante os testes no browser, tive de verificar se os
+nomes dos ficheiros estavam corretos e se todas as
+chavetas e pontos e vírgulas estavam bem colocados.
+Um dos erros mais comuns foi esquecer-me de fechar
+corretamente algumas regras CSS.
+
+
+3. AUTORIA:
+
+O atributo href serve para indicar o endereço de destino
+de uma hiperligação. No meu projeto, utilizei-o para
+criar uma ligação ao site oficial de Harry Potter,
+permitindo que os visitantes cliquem no texto e sejam
+encaminhados para outra página.
+
+*/
